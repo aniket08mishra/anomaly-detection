@@ -1,0 +1,156 @@
+PS C:\Users\ANIKET MISHRA\Desktop\python> python -u "c:\Users\ANIKET MISHRA\Desktop\python\tempCodeRunnerFile.python"
+2024-10-22 20:52:27.402316: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-10-22 20:52:28.722713: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-10-22 20:52:34.303996: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/25
+3546/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.6241    
+Epoch 1: val_loss improved from inf to 0.60415, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 8s 2ms/step - loss: 0.6240 - val_loss: 0.6042
+Epoch 2/25
+3542/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.5998   
+Epoch 2: val_loss improved from 0.60415 to 0.60103, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 7s 2ms/step - loss: 0.5998 - val_loss: 0.6010
+Epoch 3/25
+3549/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - loss: 0.5956   
+Epoch 3: val_loss improved from 0.60103 to 0.59879, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 12s 3ms/step - loss: 0.5956 - val_loss: 0.5988
+Epoch 4/25
+3535/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - loss: 0.5956    
+Epoch 4: val_loss improved from 0.59879 to 0.59554, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 19s 5ms/step - loss: 0.5956 - val_loss: 0.5955
+Epoch 5/25
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - loss: 0.5910   
+Epoch 5: val_loss improved from 0.59554 to 0.59285, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 26s 7ms/step - loss: 0.5910 - val_loss: 0.5928
+Epoch 6/25
+3542/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - loss: 0.5886   
+Epoch 6: val_loss improved from 0.59285 to 0.59148, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 15s 4ms/step - loss: 0.5886 - val_loss: 0.5915
+Epoch 7/25
+3548/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - loss: 0.5886    
+Epoch 7: val_loss improved from 0.59148 to 0.59043, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 18s 5ms/step - loss: 0.5886 - val_loss: 0.5904
+Epoch 8/25
+3537/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - loss: 0.5866   
+Epoch 8: val_loss improved from 0.59043 to 0.58952, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 19s 5ms/step - loss: 0.5866 - val_loss: 0.5895
+Epoch 9/25
+3548/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - loss: 0.5855     
+Epoch 9: val_loss improved from 0.58952 to 0.58876, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 18s 5ms/step - loss: 0.5855 - val_loss: 0.5888
+Epoch 10/25
+3547/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - loss: 0.5835   
+Epoch 10: val_loss improved from 0.58876 to 0.58804, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 24s 7ms/step - loss: 0.5835 - val_loss: 0.5880
+Epoch 11/25
+3553/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - loss: 0.5840   
+Epoch 11: val_loss improved from 0.58804 to 0.58746, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 20s 6ms/step - loss: 0.5840 - val_loss: 0.5875
+Epoch 12/25
+3546/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - loss: 0.5839   
+Epoch 12: val_loss improved from 0.58746 to 0.58679, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 22s 6ms/step - loss: 0.5839 - val_loss: 0.5868
+Epoch 13/25
+3542/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - loss: 0.5830   
+Epoch 13: val_loss improved from 0.58679 to 0.58591, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 12s 3ms/step - loss: 0.5830 - val_loss: 0.5859
+Epoch 14/25
+3541/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - loss: 0.5829   
+Epoch 14: val_loss improved from 0.58591 to 0.58575, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 11s 3ms/step - loss: 0.5829 - val_loss: 0.5858
+Epoch 15/25
+3547/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - loss: 0.5822   
+Epoch 15: val_loss did not improve from 0.58575
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 11s 3ms/step - loss: 0.5822 - val_loss: 0.5860
+Epoch 16/25
+3549/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - loss: 0.5818   
+Epoch 16: val_loss improved from 0.58575 to 0.58557, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 11s 3ms/step - loss: 0.5818 - val_loss: 0.5856
+Epoch 17/25
+3540/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - loss: 0.5824   
+Epoch 17: val_loss improved from 0.58557 to 0.58544, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 11s 3ms/step - loss: 0.5824 - val_loss: 0.5854
+Epoch 18/25
+3537/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - loss: 0.5814   
+Epoch 18: val_loss improved from 0.58544 to 0.58482, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 11s 3ms/step - loss: 0.5814 - val_loss: 0.5848
+Epoch 19/25
+3548/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - loss: 0.5801   
+Epoch 19: val_loss improved from 0.58482 to 0.58437, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 11s 3ms/step - loss: 0.5801 - val_loss: 0.5844
+Epoch 20/25
+3552/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - loss: 0.5810   
+Epoch 20: val_loss improved from 0.58437 to 0.58432, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 11s 3ms/step - loss: 0.5810 - val_loss: 0.5843
+Epoch 21/25
+3546/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - loss: 0.5810   
+Epoch 21: val_loss improved from 0.58432 to 0.58410, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 20s 6ms/step - loss: 0.5810 - val_loss: 0.5841
+Epoch 22/25
+3547/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - loss: 0.5794   
+Epoch 22: val_loss improved from 0.58410 to 0.58402, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 17s 5ms/step - loss: 0.5794 - val_loss: 0.5840
+Epoch 23/25
+3549/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - loss: 0.5797   
+Epoch 23: val_loss improved from 0.58402 to 0.58377, saving model to anomaly.weights.h5
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 17s 5ms/step - loss: 0.5797 - val_loss: 0.5838
+Epoch 24/25
+3548/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - loss: 0.5799   
+Epoch 24: val_loss did not improve from 0.58377
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 23s 6ms/step - loss: 0.5799 - val_loss: 0.5843
+Epoch 25/25
+3552/3554 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - loss: 0.5812   
+Epoch 25: val_loss did not improve from 0.58377
+3554/3554 ━━━━━━━━━━━━━━━━━━━━ 17s 5ms/step - loss: 0.5812 - val_loss: 0.5844
+Restoring model weights from the end of the best epoch: 23.
+Model: "anomaly"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ input_layer (InputLayer)             │ (None, 30)                  │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense (Dense)                        │ (None, 64)                  │           1,984 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_1 (Dense)                      │ (None, 16)                  │           1,040 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_2 (Dense)                      │ (None, 2)                   │              34 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_3 (Dense)                      │ (None, 16)                  │              48 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_4 (Dense)                      │ (None, 64)                  │           1,088 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_5 (Dense)                      │ (None, 30)                  │           1,950 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 18,434 (72.01 KB)
+ Trainable params: 6,144 (24.00 KB)
+ Non-trainable params: 0 (0.00 B)
+ Optimizer params: 12,290 (48.01 KB)
+       error    y_true   y_pred
+0  5.978172       1    True
+1  0.740299       0    True
+2  0.495870       0    True
+3  0.499675       0    True
+4  0.378982       0    True
+Threshold: 0.1932       Accuracy: 0.002         Precision: 0.501        Recall Score: 0.500
+Threshold: 0.3551       Accuracy: 0.102         Precision: 0.501        Recall Score: 0.550
+Threshold: 0.4021       Accuracy: 0.202         Precision: 0.501        Recall Score: 0.595
+Threshold: 0.4437       Accuracy: 0.302         Precision: 0.501        Recall Score: 0.645
+Threshold: 0.4826       Accuracy: 0.402         Precision: 0.501        Recall Score: 0.690
+Threshold: 0.5224       Accuracy: 0.502         Precision: 0.502        Recall Score: 0.740
+Threshold: 0.5656       Accuracy: 0.602         Precision: 0.502        Recall Score: 0.790
+Threshold: 0.6178       Accuracy: 0.702         Precision: 0.503        Recall Score: 0.840
+Threshold: 0.6885       Accuracy: 0.802         Precision: 0.504        Recall Score: 0.875
+Threshold: 0.8197       Accuracy: 0.901         Precision: 0.508        Recall Score: 0.910
+Threshold with Maximum Recall: 0.819670
+              precision    recall  f1-score   support
+
+           0       1.00      0.90      0.95     56864
+           1       0.02      0.92      0.03        98
+
+    accuracy                           0.90     56962
+   macro avg       0.51      0.91      0.49     56962
+weighted avg       1.00      0.90      0.95     56962
+
+Recall Score: 91.837%
+Accuracy Score: 90.143%
